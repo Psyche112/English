@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipped Activity 2 - Digital Reading Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .pdf-page-header { background: #1a365d; color: #fff; padding: 20px 40px; }
+        .pdf-page-header h1 { color: #fff; margin: 0; font-size: 1.5rem; }
+        .back-link { color: #b7791f; font-family: 'Poppins', sans-serif; font-size: 0.9rem; margin-bottom: 10px; display: inline-block; }
+        .back-link:hover { text-decoration: underline; }
+        .pdf-page-container { max-width: 1000px; margin: 30px auto; padding: 0 16px; height: 85vh; }
+        .pdf-embed-full { width: 100%; height: 100%; border: none; }
+        @media (max-width: 600px) {
+            .pdf-page-header { padding: 16px 20px; }
+            .pdf-page-header h1 { font-size: 1.1rem; }
+            .pdf-page-container { margin: 16px auto; height: 80vh; }
+        }
+    </style>
+</head>
+<body style="border-top: none;">
+    <div class="pdf-page-header">
+        <div class="section-container">
+            <a href="index.html#portfolio" class="back-link">&larr; Back to Portfolio</a>
+            <h1>Flipped Activity 2: Are we too dependent on technology?</h1>
+        </div>
+    </div>
+    <div class="pdf-page-container">
+        <iframe src="Flipped%20Activity2.pdf" class="pdf-embed-full" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
